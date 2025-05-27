@@ -12,14 +12,14 @@ O sistema foi construído com o objetivo de demonstrar, de forma prática, a apl
 
 ⚙️ Funcionamento Geral
 
-  1. O cliente faz um pedido, como uma poção ou uma sopa.
+  1.  O cliente faz um pedido, como uma poção ou uma sopa.
 
-  2. Cada tipo de pedido é representado por uma classe concreta que implementa a interface Pedido (Command).
+  2.  Cada tipo de pedido é representado por uma classe concreta que implementa a interface Pedido (Command).
 
-  3. O garçom adiciona os pedidos recebidos a uma lista.
+  3.  O garçom adiciona os pedidos recebidos a uma lista.
 
-  4. Quando o garçom executa a entrega, todos os pedidos da lista são processados (executados) e uma mensagem é exibida no console.
+  4.  Quando o garçom executa a entrega, todos os pedidos da lista são processados (executados) e uma mensagem é exibida no console.
 
-  5. O Observer entra em ação ao detectar novos pedidos, simulando a notificação de um personagem como o Taverneiro, que reage aos eventos no sistema.
+  5.  O Observer entra em ação ao detectar novos pedidos, simulando a notificação de um personagem como o Taverneiro, que reage aos eventos no sistema.
 
-  6. O sistema imprime no console o fluxo das ações, como uma narrativa de jogo RPG.
+  6.  O sistema imprime no console o fluxo das ações, como uma narrativa de jogo RPG.
